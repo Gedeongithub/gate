@@ -5,16 +5,61 @@
     outline: none; text-decoration: none;
     border: none;
     text-transform: capitalize;
-  
 }
+
+.navbar{
+    /* background-color: blue; */
+    display: flex;
+    height: 2cm;
+    img{
+        padding-right: 30px;
+        width: 195px;
+        height: auto;
+    }
+    width: 100%;
+}
+.navbar > ul{
+    /* background-color: rgb(0, 255, 34); */
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    margin-left: 80px;
+li{
+    padding: 10px;
+    margin-top: 12px;
+    
+}
+    
+}
+.imageBackground{
+    background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("backgroundImage.avif");
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    display: block;
+    padding-left: 2cm;
+    padding-top: 6cm;
+    
+
+}
+.imageBackground > .title{
+   color: white;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 30px;
+} 
+.imageBackground > .seek{
+    display: flex;
+    width: 85%;
+    background-color: white;
+    height: 18%;
+    margin-top: 12px;
+    margin-right:100px;
+    
+}
+
 .container{
     background: linear-gradient(45deg,rgb(226, 141, 43), lightgreen);
     padding: 15px 9%;
     padding-bottom: 100px;
-}
-.container> .imageBackground{
-    background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("backgroundImage.avif");
-    
-    width: 100%;
-    height: 500px;
 }
