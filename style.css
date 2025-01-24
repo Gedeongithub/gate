@@ -48,18 +48,120 @@ li{
    font-family: 'Times New Roman', Times, serif;
    font-size: 30px;
 } 
-.imageBackground > .seek{
-    display: flex;
-    width: 85%;
-    background-color: white;
-    height: 18%;
-    margin-top: 12px;
-    margin-right:100px;
-    
-}
-
 .container{
     background: linear-gradient(45deg,rgb(226, 141, 43), lightgreen);
     padding: 15px 9%;
     padding-bottom: 100px;
 }
+
+
+
+
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    background: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 1cm;
+
+    
+  }
+  
+  .search-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: white;
+    flex: 1;
+  }
+  
+  .search-item .icon {
+    font-size: 18px;
+    img{
+        width: 1cm;
+    height: 1cm;
+    }
+    
+  }
+  
+  .search-item input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  .search-button {
+    border: none;
+    padding: 10px 15px;
+    background-color: #0d223d;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .search-button:hover {
+    background-color: #0a1a2e;
+  }
+  /*-----------------------------------------------*/
+
+
+
+  .messagePrompt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #113e79;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    width: 100%;
+    img{
+        width: 1cm;
+    height: 1cm;
+    border-radius: 40%;
+    }
+   
+  }
+  
+  .icon-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #cfe8ff;
+    color: #0d223d;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .register-link {
+    color: #cfe8ff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
